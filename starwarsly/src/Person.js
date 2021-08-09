@@ -6,6 +6,9 @@ import { getPersonFromAPI } from "./actions/people";
 import Sublist from "./Sublist";
 
 
+/**Uses useSelector to retrieve information from the store and saves data into an array 
+ * Maps through each array to display data. Start with unknown if no data availabile yet.
+ */
 function Person() {
   
   const dispatch = useDispatch();

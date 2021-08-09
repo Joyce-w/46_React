@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+/*Loads the data from film, planet and people and displays them into a list*/
 function ItemList({items, title}) {
   return (
     <>

@@ -8,6 +8,7 @@ import Planet from "./Planet";
 import Person from "./Person";
 import HomePage from "./HomePage";
 
+/**File contains components with routes to films, planets, and people and each specific route for more detail */
 function Routes() {
   return (
     <Switch>

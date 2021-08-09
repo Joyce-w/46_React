@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import "./NavBar.css"
 
-
+/**File contains navigation to routes for films, planets, and people */
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">

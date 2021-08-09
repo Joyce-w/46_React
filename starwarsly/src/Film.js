@@ -5,6 +5,10 @@ import { getFilmFromAPI } from "./actions/films";
 import Sublist from "./Sublist";
 
 
+/** retrieves information from the store using useSelector
+ * and stores the data into corresponding variables
+ * Uses map to display all the information that was retrieved from the store.
+*/
 function Film() {
 
   const {id} = useParams();
